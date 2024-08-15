@@ -68,7 +68,7 @@ body {
   border-radius: 8px;
 }
 
-.image {
+.headerimage {
   background-color: #6d747d;
   color: #E5E7EB;
   width: 100%;
@@ -76,4 +76,57 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.infotitle {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoimagebox {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.infoimagesubbox {
+  color: dimgray;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 150px;
+}
+
+.infoimage {
+  width: 100%;
+  height: 150px;
+  border: #3882F6 3px solid;
+  border-radius: 15px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.quotetext {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quotename {
+  color: #1F2937;
+  font-weight: bold;
+  font-size: larger;
+  text-align: end;
 }
